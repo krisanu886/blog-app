@@ -1,4 +1,18 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 
+body{
+    font-family: 'Grape Nuts', cursive;
+}
+*,*::after,*::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+button,input{
+    font-family: 'Grape Nuts', cursive;
+}
+.container{
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
